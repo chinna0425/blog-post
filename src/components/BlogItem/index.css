@@ -1,0 +1,23 @@
+.listitems {
+  width: 80%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #616e7c;
+}
+.listheading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+.listpara {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 400;
+  color: #9aa5b1;
+}
+@media screen and (max-width: 767px) {
+  .listitems {
+    width: 95%;
+  }
+}
